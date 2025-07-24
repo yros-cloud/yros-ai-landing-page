@@ -1,4 +1,3 @@
-
 import { Github } from 'lucide-react';
 
 const Footer = () => (
@@ -6,7 +5,13 @@ const Footer = () => (
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="mb-4 md:mb-0">
-          <span className="text-xl font-bold bg-gradient-to-r from-yros-light-grey to-yros-white text-transparent bg-clip-text">YROS.AI</span>
+          <a href="/" className="flex items-center">
+            <img
+              src="/logo-y-white-no-background.png"
+              alt="YROS Logo"
+              className="h-20 w-auto"
+            />
+          </a>
         </div>
         <div className="flex space-x-6 text-yros-light-grey">
           <a href="#" className="hover:text-yros-white transition-colors">Política de Privacidade</a>
