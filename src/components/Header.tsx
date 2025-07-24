@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 const Header = () => (
@@ -6,7 +5,11 @@ const Header = () => (
     <div className="container flex h-16 items-center">
       <div className="mr-4 flex">
         <a href="/" className="mr-6 flex items-center space-x-2">
-          <span className="font-bold text-2xl bg-gradient-to-r from-yros-light-grey to-yros-white text-transparent bg-clip-text">YROS.AI</span>
+          <img
+            src="/yros-logo.png" // ou .png/.ico conforme o seu caso
+            alt="YROS Logo"
+            className="h-32 w-auto"
+          />
         </a>
       </div>
       <div className="flex flex-1 items-center justify-end space-x-2">
